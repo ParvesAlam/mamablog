@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { ArrowLeftIcon } from '@heroicons/react/outline';
 
 
 
@@ -42,8 +43,7 @@ function SinglePost() {
                 to={"/home"}
               type="button"
               className="fixed top-28 left-50  bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-              
-              
+              <ArrowLeftIcon className="h-6 w-6" />              
             </Link>
         </div>
       </div>
